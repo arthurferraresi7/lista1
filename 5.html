@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var numeros = [4, 11, 8, 3, 6, 1, 9];
+        var maior = 0
+        var menor = 1
+        for (posicao in numeros){
+            if (numeros[posicao]>maior){
+                maior =numeros[posicao]
+            }
+            if (numeros[posicao]<menor){
+                menor = numeros[posicao]
+            }
+    
+        }
+        alert (maior)
+        alert (menor)
+
+
+    </script>
+    
+</body>
+</html>
